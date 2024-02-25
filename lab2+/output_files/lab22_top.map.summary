@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Jan 14 18:05:22 2024
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : lab22_top
+Top-level Entity Name : buzz_top
+Family : MAX 10
+Total logic elements : 31
+    Total combinational functions : 31
+    Dedicated logic registers : 21
+Total registers : 21
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

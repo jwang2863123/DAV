@@ -1,0 +1,64 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do lab22_top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying C:/intelFPGA/21.1/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/DAV\ Stuff/lab2+ {C:/DAV Stuff/lab2+/clock_divider_top.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:19:51 on Jan 14,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/DAV Stuff/lab2+" C:/DAV Stuff/lab2+/clock_divider_top.sv 
+# -- Compiling module clock_divider_top
+# 
+# Top level modules:
+# 	clock_divider_top
+# End time: 17:19:51 on Jan 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/DAV\ Stuff/lab2+ {C:/DAV Stuff/lab2+/clock_divider_tb.sv}
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 17:19:51 on Jan 14,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/DAV Stuff/lab2+" C:/DAV Stuff/lab2+/clock_divider_tb.sv 
+# -- Compiling module clock_divider_tb
+# 
+# Top level modules:
+# 	clock_divider_tb
+# End time: 17:19:51 on Jan 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim -voptargs=+acc work.clock_divider_tb
+# vsim -voptargs="+acc" work.clock_divider_tb 
+# Start time: 17:20:06 on Jan 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.clock_divider_tb(fast)
+# Loading work.clock_divider_top(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (32) for port 'speed'. The port definition is at: C:/DAV Stuff/lab2+/clock_divider_top.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /clock_divider_tb/UUT File: C:/DAV Stuff/lab2+/clock_divider_tb.sv Line: 5
+add wave -position insertpoint  \
+sim:/clock_divider_tb/outClk
+add wave -position insertpoint  \
+sim:/clock_divider_tb/clock
+run
+run
+# End time: 17:29:12 on Jan 14,2024, Elapsed time: 0:09:06
+# Errors: 0, Warnings: 1

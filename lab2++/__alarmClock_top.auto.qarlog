@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	C:/DAV Stuff/lab2++/__alarmClock_top.auto.qarlog
+
+Archive:	C:/DAV Stuff/lab2++/__alarmClock_top.auto.qar
+Date:		Sat Feb 24 16:32:11 2024
+Quartus Prime		21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/DAV Stuff/lab2++/alarmClock_top.sv
+C:/DAV Stuff/lab2++/alarmController.sv
+C:/DAV Stuff/lab2++/clock_divider.sv
+C:/DAV Stuff/lab2++/db/alarmClock.qpf
+C:/DAV Stuff/lab2++/db/alarmClock_top.cbx.xml
+C:/DAV Stuff/lab2++/digit.sv
+C:/DAV Stuff/lab2++/display.sv
+C:/DAV Stuff/lab2++/output_files/alarmClock_top.flow.rpt
+C:/DAV Stuff/lab2++/output_files/alarmClock_top.map.rpt
+C:/DAV Stuff/lab2++/output_files/alarmClock_top.map.summary
+alarmClock_top.qsf
+c:/intelfpga_lite/21.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

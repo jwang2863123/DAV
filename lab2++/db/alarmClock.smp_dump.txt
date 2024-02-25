@@ -1,0 +1,7 @@
+
+State Machine - |alarmClock_top|alarmController:theAlarm|currentState
+Name currentState.BEEP currentState.PAUSE currentState.RUN currentState.SET 
+currentState.SET 0 0 0 0 
+currentState.RUN 0 0 1 1 
+currentState.PAUSE 0 1 0 1 
+currentState.BEEP 1 0 0 1 

@@ -1,0 +1,5 @@
+module alarmClock_top(input onoff, input reset, input [8:0] switches, input speedSwitch, input clock, 
+	output buzzer,	output [7:0] led1, output [7:0] led2, output [7:0] led3, output [7:0] led4, output [7:0] led5, output [7:0] led6);
+	
+	while(onoff) begin
+		

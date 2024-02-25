@@ -1,0 +1,52 @@
+|buzz_top
+clock => clock.IN1
+reset => reset.IN1
+outClk <= clock_divider_top:buz.port3
+
+
+|buzz_top|clock_divider_top:buz
+clk => outClk~reg0.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+speed[0] => Div0.IN45
+speed[1] => Div0.IN44
+speed[2] => Div0.IN43
+speed[3] => Div0.IN42
+speed[4] => Div0.IN41
+speed[5] => Div0.IN40
+speed[6] => Div0.IN39
+speed[7] => Div0.IN38
+speed[8] => Div0.IN37
+speed[9] => Div0.IN36
+speed[10] => Div0.IN35
+speed[11] => Div0.IN34
+speed[12] => Div0.IN33
+speed[13] => Div0.IN32
+speed[14] => Div0.IN31
+speed[15] => Div0.IN30
+speed[16] => Div0.IN29
+speed[17] => Div0.IN28
+speed[18] => Div0.IN27
+speed[19] => Div0.IN26
+reset => always0.IN1
+outClk <= outClk~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
