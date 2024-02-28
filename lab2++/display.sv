@@ -1,5 +1,5 @@
 module display(
-	input [8:0] switches, input sel, output [7:0] led1, output [7:0] led2, output [7:0] led3, output [7:0] led4,
+	input [14:0] switches, input sel, output [7:0] led1, output [7:0] led2, output [7:0] led3, output [7:0] led4,
 	output [7:0] led5, output [7:0] led6
 );
 	reg [3:0] digit1;
@@ -19,12 +19,12 @@ module display(
 	// The following block will contain the logic of your combinational circuit
 	always_comb begin
 		/* TODO: Convert a 20-bit input number to six individual digits (4 bits each) */
-		digit1 = switches / 600;
-		digit2 = (switches / 60) % 10;
-		digit3 = (switches % 60) / 10;
-		digit4 = (switches % 10);
-		digit5 = 0;
-		digit6 = 0;
+		digit1 = switches / 60000;
+		digit2 = (switches / 6000) % 1000;
+		digit3 = (switches % 6000) / 1000;
+		digit4 = (switches % 1000) / 100;
+		digit5 = (switches % 100) / 10;
+		digit6 = switches % 10;
 	end
 
 endmodule

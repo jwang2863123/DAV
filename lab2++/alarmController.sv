@@ -1,11 +1,11 @@
-module alarmController(input [8:0] timer, input reset, input button, input clk, output [8:0] nextTime);
+module alarmController(input [8:0] timer, input reset, input button, input clk, output [14:0] nextTime);
 	
 	reg [1:0] reset_sr;
 	reg [1:0] button_sr;
 	reg [1:0] currentState;
 	reg [1:0] nextState; // the next state to be assigned
-	reg [8:0] outVal_d;  // the next output value to be assigned
-
+	reg [14:0] outVal_d;  // the next output value to be assigned
+	
 	always @(posedge clk) begin
 		
 		/* shift the shift register left by 1 and
@@ -29,7 +29,7 @@ module alarmController(input [8:0] timer, input reset, input button, input clk, 
 	always_comb begin
 		case (currentState)
 			SET: begin
-				outVal_d = timer;
+				outVal_d = timer * 100;
 				if(button_sr == 2'b10) begin
 					nextState = RUN;
 					//outval_d = RUN;
