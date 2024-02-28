@@ -160,7 +160,7 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led6[6]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led6[7]
 set_location_assignment PIN_B8 -to reset
 set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to reset
-set_location_assignment PIN_A7 -to speedSwitch
+set_location_assignment PIN_C10 -to speedSwitch
 set_location_assignment PIN_C11 -to switches[0]
 set_location_assignment PIN_D12 -to switches[1]
 set_location_assignment PIN_C12 -to switches[2]
@@ -170,7 +170,7 @@ set_location_assignment PIN_A13 -to switches[5]
 set_location_assignment PIN_A14 -to switches[6]
 set_location_assignment PIN_B14 -to switches[7]
 set_location_assignment PIN_F15 -to switches[8]
-set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to speedSwitch
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to speedSwitch
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[0]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[1]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[2]
@@ -182,4 +182,6 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[7]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[8]
 set_location_assignment PIN_P11 -to clock
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clock
+set_location_assignment PIN_A7 -to button
+set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to button
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

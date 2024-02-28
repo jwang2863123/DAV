@@ -1,5 +1,5 @@
 Assembler report for alarmClock_top
-Sat Feb 24 17:48:55 2024
+Tue Feb 27 22:02:46 2024
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/DAV Stuff/lab2++/output_files/alarmClock_top.sof
+  5. Assembler Device Options: C:/Users/zak/Documents/dav/DAV/lab2++/output_files/alarmClock_top.sof
   6. Assembler Messages
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Feb 24 17:48:55 2024 ;
+; Assembler Status      ; Successful - Tue Feb 27 22:02:46 2024 ;
 ; Revision Name         ; alarmClock_top                        ;
 ; Top-level Entity Name ; alarmClock_top                        ;
 ; Family                ; MAX 10                                ;
@@ -84,23 +84,23 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------+----------------+----------------+
 
 
-+-----------------------------------------------------+
-; Assembler Generated Files                           ;
-+-----------------------------------------------------+
-; File Name                                           ;
-+-----------------------------------------------------+
-; C:/DAV Stuff/lab2++/output_files/alarmClock_top.sof ;
-+-----------------------------------------------------+
++-----------------------------------------------------------------------+
+; Assembler Generated Files                                             ;
++-----------------------------------------------------------------------+
+; File Name                                                             ;
++-----------------------------------------------------------------------+
+; C:/Users/zak/Documents/dav/DAV/lab2++/output_files/alarmClock_top.sof ;
++-----------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------+
-; Assembler Device Options: C:/DAV Stuff/lab2++/output_files/alarmClock_top.sof ;
-+----------------+--------------------------------------------------------------+
-; Option         ; Setting                                                      ;
-+----------------+--------------------------------------------------------------+
-; JTAG usercode  ; 0x0029469B                                                   ;
-; Checksum       ; 0x0029469B                                                   ;
-+----------------+--------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/zak/Documents/dav/DAV/lab2++/output_files/alarmClock_top.sof ;
++----------------+--------------------------------------------------------------------------------+
+; Option         ; Setting                                                                        ;
++----------------+--------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x002E71EC                                                                     ;
+; Checksum       ; 0x002E71EC                                                                     ;
++----------------+--------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -109,15 +109,15 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Sat Feb 24 17:48:51 2024
+    Info: Processing started: Tue Feb 27 22:02:44 2024
 Info: Command: quartus_asm --read_settings_files=on --write_settings_files=off alarmClock -c alarmClock_top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4732 megabytes
-    Info: Processing ended: Sat Feb 24 17:48:55 2024
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4726 megabytes
+    Info: Processing ended: Tue Feb 27 22:02:46 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:03
 
 

@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(10M50DAF484) Path("C:/DAV Stuff/lab2++/output_files/") File("alarmClock_top.sof") MfrSpec(OpMask(1));
+		Device PartName(10M50DAF484) Path("C:/Users/zak/Documents/dav/DAV/lab2++/output_files/") File("alarmClock_top.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

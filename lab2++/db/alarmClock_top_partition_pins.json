@@ -4,6 +4,62 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "led1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led2[6]",
+					"strict" : false
+				},
+				{
 					"name" : "led3[0]",
 					"strict" : false
 				},
@@ -88,6 +144,30 @@
 					"strict" : false
 				},
 				{
+					"name" : "switches[7]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[6]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[4]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[5]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[3]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[2]",
+					"strict" : false
+				},
+				{
 					"name" : "switches[0]",
 					"strict" : false
 				},
@@ -100,27 +180,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "switches[7]",
-					"strict" : false
-				},
-				{
-					"name" : "switches[6]",
-					"strict" : false
-				},
-				{
-					"name" : "switches[5]",
-					"strict" : false
-				},
-				{
-					"name" : "switches[4]",
-					"strict" : false
-				},
-				{
-					"name" : "switches[3]",
-					"strict" : false
-				},
-				{
-					"name" : "switches[2]",
+					"name" : "speedSwitch",
 					"strict" : false
 				},
 				{
@@ -128,11 +188,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "reset",
+					"name" : "button",
 					"strict" : false
 				},
 				{
-					"name" : "speedSwitch",
+					"name" : "reset",
 					"strict" : false
 				}
 			]
